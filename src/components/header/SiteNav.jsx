@@ -33,11 +33,11 @@ function SiteNav() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul claßssName="navbar-nav" style={{ marginLeft: '35%', display: 'flex', justifyContent: 'center', gap: '20px' }}>
+          <ul className="navbar-nav" style={{ marginLeft: '35%', display: 'flex', justifyContent: 'center', gap: '20px' }}>
             <li className="nav-item">
               <Link 
                 to="home-section" 
-                smooth={true} ß
+                smooth={true}
                 duration={500} 
                 className="nav-link hover-effect">
                 Home
